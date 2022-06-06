@@ -7,7 +7,7 @@ velocidade normal :).
 # Como usar?
 
 Abra o jogo.
-Dê alguns passos.
+Dê alguns passos dentro do jogo.
 Abra o Speed Hack COMO ADMINISTRADOR.
 Insirá o valor.
 
