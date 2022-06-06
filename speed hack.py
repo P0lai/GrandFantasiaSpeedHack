@@ -3,6 +3,7 @@ from pymem.process import *
 from os import system 
 
 system("cls||clear")
+system("title SPEED HACK")
 
 try:
     mem = Pymem("GrandFantasia.exe")
