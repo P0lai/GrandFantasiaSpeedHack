@@ -2,8 +2,7 @@ from pymem import *
 from pymem.process import *
 from os import system 
 
-system("title SPEED HACK")
-system("cls||clear")
+system("title && cls || clear")
 
 try:
     mem = Pymem("GrandFantasia.exe")
@@ -36,16 +35,16 @@ def main():
             speed_value = float((input("\033[1;97m" + "Value: ")))
 
             if speed_value > 100 or speed_value < 1:
-                system("cls||clear")
+                system("cls || clear")
                 print("\n" + "\033[1;91m" + "[-] The minimum speed value is 1 and maximum 100.")
                 main()
         except:
-            system("cls||clear")
+            system("cls || clear")
             print("\n" + "\033[1;91m" + "[-] Only numbers.")    
             main()
         mem.write_float(getPointerAddr(module + 0x0096B6CC, offsets), speed_value)
 
-        system("cls||clear")
+        system("cls || clear")
 
         print("\n" + "\033[1;92m" + "[+] Injected.\n")
 main()
